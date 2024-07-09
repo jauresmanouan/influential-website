@@ -4,7 +4,7 @@ import AboutUs from "./components/pages/aboutUS/AboutUs.jsx";
 import Activities from "./components/pages/activities/Activities.jsx";
 import Home from "./components/pages/home/Home.jsx";
 import JoinUs from "./components/pages/joinUs/JoinUs.jsx";
-import Error404 from "./components/pages/error/Error404.jsx"
+import Error404 from "./components/pages/error/Error404.jsx";
 
 function App() {
   return (
