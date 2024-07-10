@@ -8,8 +8,9 @@ export default function Menu({ className }) {
       <li>Nos activités</li>
       <li>Nous connaître</li>
       <Button
+        colorButton={"bg-white"}
         text={"Nous rejoindre"}
-        textStyle={"text-fushia"}
+        colorText={"text-fushia"}
         iconStyle="text-fushia lg:w-5 h-5"
         arrow={true}
       />
