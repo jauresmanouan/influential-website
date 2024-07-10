@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="md:grid grid-cols-2 grid-rows-1 items-center justify-center h-[calc(100vh-6rem)] px-10 lg:px-40">
       <div className="border-red-700 space-y-5 flex flex-col justify-center items-center md:items-start text-center md:text-left m-8 md:m-0">
-        <h1 className="text-3xl md:text-6xl font-montserrat font-extrabold leading-tight">
+        <h1 className="text-6xl font-montserrat font-extrabold leading-tight">
           Inspirez la nation, <br />
           construisez l’avenir
         </h1>

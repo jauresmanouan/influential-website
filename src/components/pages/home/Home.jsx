@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Context } from "../../../context/Context";
 import NavBar from "./navbar/NavBar";
 import Hero from "./Hero";
+import Content from "./Content";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,7 @@ export default function Home() {
     <Context.Provider value={valueContext}>
       <NavBar />
       <Hero />
+      <Content/>
     </Context.Provider>
   );
 }
