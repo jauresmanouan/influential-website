@@ -8,7 +8,7 @@ export default function NavBar() {
 
   return (
     <div>
-      <div className="h-24 flex justify-between items-center bg-fushia font-inter font-semibold text-sm lg:text-lg px-10 lg:px-40">
+      <div className="h-16 lg:h-24 flex justify-between items-center bg-fushia font-inter font-semibold text-sm lg:text-lg px-10 lg:px-40">
         <div className="logo text-white">Logo</div>
         <Menu
           className={
