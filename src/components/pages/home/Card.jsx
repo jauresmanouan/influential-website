@@ -6,7 +6,7 @@ export default function Card({
   description,
 }) {
   return (
-    <div className="card card-compact rounded-none bg-base-100 w-96 shadow-xl font-inter">
+    <div className="card card-compact rounded-none bg-base-100 w-80 shadow-xl font-inter">
       <figure>
         <img src={image} alt={imageTitle} />
       </figure>
