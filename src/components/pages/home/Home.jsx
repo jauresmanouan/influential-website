@@ -4,6 +4,7 @@ import NavBar from "./navbar/NavBar";
 import Hero from "./Hero";
 import Content from "./Content";
 import News from "./News";
+import Testimonies from "./Testimonies";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <Content/>
       <News/>
+      <Testimonies/>
     </Context.Provider>
   );
 }

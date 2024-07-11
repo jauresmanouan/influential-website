@@ -5,7 +5,7 @@ export default function News() {
   return (
     <div className="flex justify-center items-center">
       <div className="h-[44rem] flex justify-center items-start flex-col space-y-10">
-        <h1 className="font-montserrat  font-extrabold text-7xl">News 🗞️</h1>
+        <h1 className="font-montserrat  font-extrabold text-7xl">Nos news 🗞️</h1>
         <div className="flex space-x-10 ">
           <Card
             image={"src/assets/images/Aletier IFL 240623 4.png"}

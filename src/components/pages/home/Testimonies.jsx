@@ -1,0 +1,46 @@
+import { HiOutlineChevronLeft } from "react-icons/hi";
+import { HiOutlineChevronRight } from "react-icons/hi2";
+
+export default function Testimonies() {
+  return (
+    <div className="h-[44rem] bg-blue flex flex-col justify-center items-center">
+      <div className="flex justify-center relative items-start flex-col">
+        <h1 className="font-montserrat text-white font-extrabold text-7xl mb-14">
+          Que disent il ? 🤔
+        </h1>{" "}
+        <div className="flex space-x-4 absolute right-0 top-12">
+          <button className="btn btn-xs rounded-full bg-white sm:btn-sm md:btn-md lg:btn-lg">
+            <HiOutlineChevronLeft className="text-black" />
+          </button>
+          <button className="btn btn-xs hover:bg-red-400 rounded-full bg-fushia border-none sm:btn-sm md:btn-md lg:btn-lg">
+            <HiOutlineChevronRight className="text-white" />
+          </button>
+        </div>
+        <div className="grid grid-cols-2 grid-rows-1 card lg:card-side rounded-none bg-base-100 shadow-xl h-[420px] w-[1080px]">
+          <figure>
+            <img
+              className="h-[420px] w-[588px] object-cover"
+              src="src/assets/images/Aletier IFL 240623 4.png"
+              alt="Album"
+            />
+          </figure>
+          <div className="flex flex-col justify-center p-8">
+            <h2 className="text-blue text-4xl font-inter font-black mb-5">
+              “Transformation...”
+            </h2>
+            <p className="font-inter font-normal mb-8">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit ultrices
+              scelerisque mi sed interdum lacus tellus in mi orc, netus nisl
+              laoreet phasellus. Pellentesque non nunc placerat mi quis vitae
+              cursus ornare.
+            </p>
+            <p className="text-turquoise font-inter font-semibold mb-2">
+              Bénédicte KOFFI
+            </p>
+            <p className="font-inter font-medium">Ingénieur Zootechnique</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
