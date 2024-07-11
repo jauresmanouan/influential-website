@@ -41,7 +41,7 @@ export default function Testimonies() {
                 <p className="font-inter font-medium">Ingénieur Zootechnique</p>
               </div>
             </div>
-            <div className="flex space-x-2 ">
+            <div className="flex space-x-2">
               <div className="w-4 h-4 rounded-full bg-white"></div>
               <div className="w-4 h-4 rounded-full bg-white"></div>
               <div className="w-4 h-4 rounded-full bg-white"></div>
