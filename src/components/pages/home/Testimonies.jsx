@@ -6,7 +6,7 @@ export default function Testimonies() {
     <div className="h-[50rem] bg-blue flex flex-col justify-center items-center">
       <div className="flex justify-center relative items-start flex-col">
         <h1 className="font-montserrat text-white font-extrabold text-7xl mb-14">
-          Que disent il ? 🤔
+          Que disent ils ? 🤔
         </h1>{" "}
         <div className="flex space-x-4 absolute right-0 top-12">
           <button className="btn btn-xs rounded-full bg-white sm:btn-sm md:btn-md lg:btn-lg">

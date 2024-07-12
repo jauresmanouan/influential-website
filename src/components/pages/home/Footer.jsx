@@ -11,31 +11,34 @@ export default function Footer() {
         Lorem ipsum dolor sit ametconsectetur adipiscing elit phasellus amet{" "}
         <br /> dui quam vitae quis leo.
       </p>
-      <form action="submit" className="flex space-x-4 justify-center items-center pt-8">
+      <form
+        action="submit"
+        className="flex space-x-4 justify-center items-center pt-8"
+      >
         <input
           type="email"
           placeholder="Entrez votre email"
-          className="bg-slate-100 rounded-full w-80 h-16 font-inter font-normal px-8"
+          className="bg-slate-100 rounded-full w-80 h-16 font-inter font-normal px-8 outline-2 outline-blue"
         />
         <button className="btn bg-blue hover:bg-fushia rounded-full w-36 h-16 text-white font-inter font-semibold">
           Souscrire
         </button>
       </form>
-      <div className="flex space-x-3 pb-20 pt-4">
-        <button className="btn btn-sm text-blue h-9 w-9 text-xl">
-          <FaFacebookF />
+      <div className="flex space-x-3 pb-20 pt-10">
+        <button className="btn btn-sm text-blue">
+          <FaFacebookF className="text-base" />
         </button>
-        <button className="btn btn-sm  text-blue h-9 w-9">
-          <AiFillInstagram />
+        <button className="btn btn-sm  text-blue">
+          <AiFillInstagram className="text-base" />
         </button>
-        <button className="btn btn-sm text-blue h-9 w-9">
-          <FaLinkedinIn />
+        <button className="btn btn-sm text-blue ">
+          <FaLinkedinIn className="text-base" />
         </button>
-        <button className="btn btn-sm text-blue h-9 w-9">
-          <FaTiktok />
+        <button className="btn btn-sm text-blue">
+          <FaTiktok className="textbase" />
         </button>
-        <button className="btn btn-sm text-blue h-9 w-9">
-          <FaYoutube className="text-2xl" />
+        <button className="btn btn-sm text-blue ">
+          <FaYoutube className="text-base" />
         </button>
       </div>
       <hr className="border-1 border-blue w-3/4 pt-2" />
