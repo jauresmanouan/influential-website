@@ -3,10 +3,10 @@ import { HiOutlineChevronRight } from "react-icons/hi2";
 
 export default function Testimonies() {
   return (
-    <div className="h-[44rem] bg-blue flex flex-col justify-center items-center">
+    <div className="h-[50rem] bg-blue flex flex-col justify-center items-center">
       <div className="flex justify-center relative items-start flex-col">
         <h1 className="font-montserrat text-white font-extrabold text-7xl mb-14">
-          Que disent il ? 🤔
+          Que disent ils ? 🤔
         </h1>{" "}
         <div className="flex space-x-4 absolute right-0 top-12">
           <button className="btn btn-xs rounded-full bg-white sm:btn-sm md:btn-md lg:btn-lg">
@@ -41,7 +41,7 @@ export default function Testimonies() {
                 <p className="font-inter font-medium">Ingénieur Zootechnique</p>
               </div>
             </div>
-            <div className="flex space-x-2 ">
+            <div className="flex space-x-2">
               <div className="w-4 h-4 rounded-full bg-white"></div>
               <div className="w-4 h-4 rounded-full bg-white"></div>
               <div className="w-4 h-4 rounded-full bg-white"></div>
