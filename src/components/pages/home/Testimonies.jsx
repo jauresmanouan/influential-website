@@ -3,7 +3,7 @@ import { HiOutlineChevronRight } from "react-icons/hi2";
 
 export default function Testimonies() {
   return (
-    <div className="h-[44rem] bg-blue flex flex-col justify-center items-center">
+    <div className="h-[50rem] bg-blue flex flex-col justify-center items-center">
       <div className="flex justify-center relative items-start flex-col">
         <h1 className="font-montserrat text-white font-extrabold text-7xl mb-14">
           Que disent il ? 🤔
