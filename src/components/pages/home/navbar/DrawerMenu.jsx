@@ -1,8 +1,7 @@
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
-import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { HiOutlineXMark } from "react-icons/hi2";
-import LinkToPage from "./LinkToPage";
+import LinkTo from "./LinkTo";
 
 export default function DrawerMenu() {
   return (
@@ -36,21 +35,21 @@ export default function DrawerMenu() {
             </label>
           </div>
           <div className="flex flex-col space-y-4 font-inter font-semibold text-base">
-            <LinkToPage to={"/"} variant={"secondary"}>
+            <LinkTo to={"/"} variant={"secondary"}>
               Accueil
-            </LinkToPage>
+            </LinkTo>
 
-            <LinkToPage to={"/nos-activités"} variant={"secondary"}>
+            <LinkTo to={"/nos-activités"} variant={"secondary"}>
               Nos activités
-            </LinkToPage>
+            </LinkTo>
 
-            <LinkToPage to={"/nous-connaître"} variant={"secondary"}>
+            <LinkTo to={"/nous-connaître"} variant={"secondary"}>
               Nous connaître
-            </LinkToPage>
+            </LinkTo>
 
-            <LinkToPage to={"/nous-rejoindre"} variant={"secondary"}>
+            <LinkTo to={"/nous-rejoindre"} variant={"secondary"}>
               Nous rejoindre
-            </LinkToPage>
+            </LinkTo>
           </div>
         </div>
       </div>
