@@ -2,6 +2,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { HiOutlineXMark } from "react-icons/hi2";
+import LinkToPage from "./LinkToPage";
 
 export default function DrawerMenu() {
   return (
@@ -29,34 +30,27 @@ export default function DrawerMenu() {
               aria-label="close sidebar"
               className="drawer-overlay"
             >
-              <div className="btn rounded-full bg-turquoise text-white border-none"><HiOutlineXMark/></div>
+              <div className="btn rounded-full bg-turquoise text-white border-none">
+                <HiOutlineXMark />
+              </div>
             </label>
           </div>
           <div className="flex flex-col space-y-4 font-inter font-semibold text-base">
-            <Link
-              to="/"
-              className="active:bg-fushia active:text-white btn hover:bg-white bg-white border-none shadow-none"
-            >
-              <li>Accueil</li>
-            </Link>
-            <Link
-              to={"/nos-activités"}
-              className="active:bg-fushia active:text-white btn hover:bg-white bg-white border-none shadow-none"
-            >
-              <li>Nos activités</li>
-            </Link>
-            <Link
-              to={"/nous-connaître"}
-              className="active:bg-fushia active:text-white btn hover:bg-white bg-white border-none shadow-none"
-            >
-              <li>Nous connaître</li>
-            </Link>
-            <Link
-              to={"/nous-rejoindre"}
-              className="active:bg-fushia active:text-white btn hover:bg-white bg-white border-none shadow-none"
-            >
-              <li>Nous connaître</li>
-            </Link>
+            <LinkToPage to={"/"} variant={"secondary"}>
+              Accueil
+            </LinkToPage>
+
+            <LinkToPage to={"/nos-activités"} variant={"secondary"}>
+              Nos activités
+            </LinkToPage>
+
+            <LinkToPage to={"/nous-connaître"} variant={"secondary"}>
+              Nous connaître
+            </LinkToPage>
+
+            <LinkToPage to={"/nous-rejoindre"} variant={"secondary"}>
+              Nous rejoindre
+            </LinkToPage>
           </div>
         </div>
       </div>
