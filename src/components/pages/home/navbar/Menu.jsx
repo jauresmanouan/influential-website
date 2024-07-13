@@ -2,18 +2,21 @@ import { HiOutlineArrowRight } from "react-icons/hi2";
 import Button from "../../../reusable-ui/Button";
 import { Link } from "react-router-dom";
 
-export default function Menu({ className }) {
+export default function Menu() {
   return (
-    <div className={className}>
+    <div className="hidden md:flex items-center space-x-8 text-white list-none">
       <Link to="/" className="underline-hover">
         <li>Accueil</li>
       </Link>
+
       <Link to={"/nos-activités"} className="underline-hover">
         <li>Nos activités</li>
       </Link>
+      
       <Link to={"/nous-connaître"} className="underline-hover">
         <li>Nous connaître</li>
       </Link>
+      
       <Link to={"/nous-rejoindre"}>
         <Button
           colorButton={"bg-white"}

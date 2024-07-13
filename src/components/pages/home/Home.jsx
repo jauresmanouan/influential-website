@@ -19,12 +19,12 @@ export default function Home() {
   return (
     <Context.Provider value={valueContext}>
       <NavBar />
-      <Hero />
+      {/* <Hero />
       <Content/>
       <News/>
       <Testimonies/>
       <CallToAction/>
-      <Footer/>
+      <Footer/> */}
     </Context.Provider>
   );
 }
