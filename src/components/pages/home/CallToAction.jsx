@@ -12,6 +12,7 @@ export default function CallToAction() {
         colorButton={"bg-blue"}
         colorText={"text-white"}
         arrow={false}
+        className={"border-none bg-blue hover:bg-turquoise"}
       />
     </div>
   );

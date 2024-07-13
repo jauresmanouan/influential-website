@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Menu from "./Menu";
-import ShowMenu from "./ShowMenu";
+import ButtonShowMenu from "./ButtonShowMenu";
 import { Context } from "../../../../context/Context";
 
 export default function NavBar() {
@@ -15,7 +15,7 @@ export default function NavBar() {
             "hidden md:flex items-center space-x-8 text-white list-none"
           }
         />
-        <ShowMenu />
+        <ButtonShowMenu />
       </div>
       {isOpen && (
         <Menu

@@ -17,6 +17,7 @@ export default function Hero() {
           text={"En savoir plus"}
           colorText={"text-white"}
           arrow={false}
+          className={"border-none bg-fushia hover:bg-turquoise"}
         />
       </div>
       <img src="" alt="logo" className="w-full h-96 bg-red-600" />
