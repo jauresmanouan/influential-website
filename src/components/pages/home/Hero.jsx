@@ -2,14 +2,20 @@ import Button from "../../reusable-ui/Button";
 
 export default function Hero() {
   return (
-    <div className="md:grid grid-cols-2 grid-rows-1 items-center justify-center h-[calc(100vh-6rem)] px-10 lg:px-40">
-      <div className="border-red-700 space-y-5 flex flex-col justify-center items-center md:items-start text-center md:text-left m-8 md:m-0">
-        <h1 className="text-6xl font-montserrat font-extrabold leading-tight">
+    <div className="border-2 border-blue">
+      <div className="flex flex-col justify-center items-center">
+        <img
+          src="https://i.pinimg.com/564x/cb/4b/ac/cb4bacdfe4334b112753180a5a7bd0be.jpg"
+          alt="logo"
+          className="bg-fushia w-screen border-2 border-black mt-14"
+        />
+        <h1 className="text-center font-montserrat font-extrabold text-5xl border-2 border-green-500 mb-6 ml-8 mr-8">
           Inspirez la nation, <br />
-          construisez l’avenir
+          construisez l'avenir
         </h1>
-        <h2 className="text-blue text-sm md:text-lg font-inter font-bold">
+        <h2 className="text-center font-inter font-medium text-blue text-sm border-2 border-red-500 mb-8 ml-8 mr-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          <br />
           hic. Commodi minima dolores natus sequi voluptates cupiditate unde
         </h2>
         <Button
@@ -17,10 +23,9 @@ export default function Hero() {
           text={"En savoir plus"}
           colorText={"text-white"}
           arrow={false}
-          className={"border-none bg-fushia hover:bg-turquoise"}
+          className={"border-2 border-black"}
         />
       </div>
-      <img src="" alt="logo" className="w-full h-96 bg-red-600" />
     </div>
   );
 }
