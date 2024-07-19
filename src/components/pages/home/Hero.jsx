@@ -9,11 +9,11 @@ export default function Hero() {
         alt="logo"
         className="w-full scale-150 mt-14 md:order-2 md:z-0"
       /> */}
-      <HiFire className="text-blue md:scale-150 w-full h-full mt-14 md:order-2 md:z-0" />
-      <div className="flex flex-col justify-center items-center md:items-start p-4 md:pl-40">
+      <HiFire className="text-orange-500 md:scale-150 w-full h-full mt-14 md:order-2 md:z-0" />
+      <div className="flex flex-col justify-center items-center md:items-start p-4 md:pl-10 xl:pl-40">
         <h1 className="text-center md:text-start font-montserrat font-extrabold text-5xl sm:text-6xl lg:text-8xl mb-6 md:z-10">
-          Inspirez la nation, <br />
-          construisez l'avenir
+          Insp🔥rez la nation, <br />
+          construisez l'avenir✨
         </h1>
         <h2 className="text-center md:text-start font-inter font-medium text-blue text-sm sm:text-lg lg:text-xl mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
