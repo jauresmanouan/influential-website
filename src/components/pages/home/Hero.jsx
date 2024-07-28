@@ -1,16 +1,24 @@
 import Button from "../../reusable-ui/Button";
+import { HiFire } from "react-icons/hi2";
 
 export default function Hero() {
   return (
-    <div className="md:grid grid-cols-2 grid-rows-1 items-center justify-center h-[calc(100vh-6rem)] px-10 lg:px-40">
-      <div className="border-red-700 space-y-5 flex flex-col justify-center items-center md:items-start text-center md:text-left m-8 md:m-0">
-        <h1 className="text-6xl font-montserrat font-extrabold leading-tight">
-          Inspirez la nation, <br />
-          construisez l’avenir
+    <div className="flex flex-col justify-center items-center md:grid md:grid-cols-2 md:pt-20 overflow-x-clip">
+      {/* <img
+        src="https://i.pinimg.com/564x/cb/4b/ac/cb4bacdfe4334b112753180a5a7bd0be.jpg"
+        alt="logo"
+        className="w-full scale-150 mt-14 md:order-2 md:z-0"
+      /> */}
+      <HiFire className="text-orange-500 md:scale-150 w-full h-full mt-14 md:order-2 md:z-0" />
+      <div className="flex flex-col justify-center items-center md:items-start p-4 md:pl-10 xl:pl-40">
+        <h1 className="text-center md:text-start font-montserrat font-extrabold text-5xl sm:text-6xl lg:text-8xl mb-6 md:z-10">
+          Insp🔥rez la nation, <br />
+          construisez l'avenir✨
         </h1>
-        <h2 className="text-blue text-sm md:text-lg font-inter font-bold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-          hic. Commodi minima dolores natus sequi voluptates cupiditate unde
+        <h2 className="text-center md:text-start font-inter font-medium text-blue text-sm sm:text-lg lg:text-xl mb-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />
+          Commodi minima dolores natus sequi voluptates cupiditate unde
         </h2>
         <Button
           colorButton={"bg-fushia"}
@@ -19,7 +27,6 @@ export default function Hero() {
           arrow={false}
         />
       </div>
-      <img src="" alt="logo" className="w-full h-96 bg-red-600" />
     </div>
   );
 }

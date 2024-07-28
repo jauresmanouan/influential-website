@@ -4,7 +4,7 @@ import NavBar from "./navbar/NavBar";
 import Hero from "./Hero";
 import Content from "./Content";
 import News from "./News";
-import Testimonies from "./Testimonies";
+import Testimonies from "./testimonies/Testimonies";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
 
@@ -20,7 +20,7 @@ export default function Home() {
     <Context.Provider value={valueContext}>
       <NavBar />
       <Hero />
-      <Content/>
+      <Content/> 
       <News/>
       <Testimonies/>
       <CallToAction/>
