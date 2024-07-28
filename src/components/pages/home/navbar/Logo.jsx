@@ -1,5 +1,5 @@
 export default function Logo() {
   return (
-    <div className="">Logo</div>
+    <div className="text-white">LOGO</div>
   )
 }

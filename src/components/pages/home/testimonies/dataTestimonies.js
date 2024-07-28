@@ -1,0 +1,42 @@
+export const testimonies = [
+  {
+    id: 1,
+    image: "",
+    title: "",
+    description: "",
+    author: "",
+    function: "",
+  },
+  {
+    id: 2,
+    image: "",
+    title: "",
+    description: "",
+    author: "",
+    function: "",
+  },
+  {
+    id: 3,
+    image: "",
+    title: "",
+    description: "",
+    author: "",
+    function: "",
+  },
+  {
+    id: 4,
+    image: "",
+    title: "",
+    description: "",
+    author: "",
+    function: "",
+  },
+  {
+    id: 5,
+    image: "",
+    title: "",
+    description: "",
+    author: "",
+    function: "",
+  },
+];
