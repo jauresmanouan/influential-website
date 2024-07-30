@@ -18,13 +18,13 @@ export default function Home() {
 
   return (
     <Context.Provider value={valueContext}>
-      <NavBar />
+      {/* <NavBar />
       <Hero />
       <Content/> 
-      <News/>
+      <News/> */}
       <Testimonies/>
-      <CallToAction/>
-      <Footer/>
+      {/* <CallToAction/>
+      <Footer/> */}
     </Context.Provider>
   );
 }
