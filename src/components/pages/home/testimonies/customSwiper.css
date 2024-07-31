@@ -1,11 +1,17 @@
+.swiper-pagination {
+  margin-top: 2rem;
+  position: relative;
+}
+
 /* Customisation de la pagination */
 .swiper-pagination-bullet {
-  background-color: black; /* Couleur des bullets */
-  width: 19px;
-  height: 19px;
+  background-color: white; /* Couleur des bullets */
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  
 }
 
 .swiper-pagination-bullet-active {
   background-color: #f30e3f; /* Couleur des bullets actifs */
 }
-

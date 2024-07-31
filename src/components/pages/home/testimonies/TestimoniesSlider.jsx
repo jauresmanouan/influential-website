@@ -40,8 +40,8 @@ export default function TestimoniesSlider() {
       >
         {testimonies.map((testimonies) => (
           <SwiperSlide key={testimonies.id}>
-            <section className="flex flex-col justify-center items-center">
-              <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 rounded-none bg-base-100 shadow-xl h-auto md:h-[26rem] w-screen lg:w-[67rem]">
+            <section className="flex flex-col justify-center items-center overflow-hidden">
+              <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 rounded-none bg-base-100 shadow-xl h-auto md:h-[26rem] w-screen lg:w-[67rem] ">
                 <figure>
                   <img
                     className="w-full h-64 md:h-[420px] object-cover"
