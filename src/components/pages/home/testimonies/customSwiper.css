@@ -1,0 +1,11 @@
+/* Customisation de la pagination */
+.swiper-pagination-bullet {
+  background-color: black; /* Couleur des bullets */
+  width: 19px;
+  height: 19px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f30e3f; /* Couleur des bullets actifs */
+}
+

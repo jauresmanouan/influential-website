@@ -29,7 +29,7 @@ export const testimonies = [
   {
     id: 4,
     image: "src/assets/images/Wake-up Pray and Hustle.jpeg",
-    title: "Wake-up, Pray and Hustle",
+    title: "Pray and Hustle",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
     author: "Césaré de Justus",

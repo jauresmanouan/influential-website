@@ -54,50 +54,16 @@
 //   );
 // }
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { testimonies } from "./dataTestimonies";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import required modules
-import { Pagination } from "swiper/modules";
+import React from "react";
+import TestimoniesSlider from "./TestimoniesSlider";
 
 export default function Testimonies() {
   return (
-    <div className="text-3xl">
-      <Swiper>
-        {testimonies.map((testimonies) => (
-          <SwiperSlide>
-            <section className="h-[50rem] bg-blue flex flex-col justify-center items-center">
-              <div className="grid grid-cols-2 grid-rows-1 card lg:card-side rounded-none bg-base-100 shadow-xl h-[420px] w-[1080px]">
-                <figure>
-                  <img
-                    className="h-[420px] w-[588px] object-cover"
-                    src={testimonies.image}
-                    alt={testimonies.title}
-                  />
-                </figure>
-                <div className="flex flex-col justify-center p-8">
-                  <h2 className="text-blue text-5xl font-inter font-black mb-5">
-                    {testimonies.title}
-                  </h2>
-                  <p className="font-inter text-2xl font-normal mb-8">
-                    {testimonies.description}
-                  </p>
-                  <p className="text-turquoise text-2xl font-inter font-semibold mb-2">
-                    {testimonies.author}
-                  </p>
-                  <p className="font-inter text-xl font-medium">
-                    {testimonies.function}
-                  </p>
-                </div>
-              </div>
-            </section>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+    <div className="h-[50rem] w-screen bg-blue flex flex-col justify-center content-start">
+      <h1 className="font-montserrat text-white font-extrabold text-4xl sm:text-6xl md:text-7xl mb-5 md:mb-14 lg:ml-48">
+        Que disent ils ? 🤔
+      </h1>
+      <TestimoniesSlider />
     </div>
   );
 }
