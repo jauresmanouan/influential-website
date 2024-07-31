@@ -1,13 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonies } from "./dataTestimonies";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./customSwiper.css";
 
-// import required modules
 import {
   Pagination,
   Navigation,
@@ -15,7 +13,6 @@ import {
   Keyboard,
   EffectCreative,
 } from "swiper/modules";
-import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 
 export default function TestimoniesSlider() {
   return (
@@ -23,7 +20,10 @@ export default function TestimoniesSlider() {
       <Swiper
         modules={[Pagination, Navigation, Mousewheel, Keyboard, EffectCreative]}
         pagination={{ clickable: true }}
-        navigation={true}
+        navigation={{
+          prevEl: ".prev",
+          nextEl: ".next",
+        }}
         loop={true}
         grabCursor={true}
         effect={"creative"}
@@ -41,7 +41,7 @@ export default function TestimoniesSlider() {
         {testimonies.map((testimonies) => (
           <SwiperSlide key={testimonies.id}>
             <section className="flex flex-col justify-center items-center overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 rounded-none bg-base-100 shadow-xl h-auto md:h-[26rem] w-screen lg:w-[67rem] ">
+              <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 rounded-none bg-base-100 shadow-xl h-auto md:h-[26rem] w-screen lg:w-[67rem]">
                 <figure>
                   <img
                     className="w-full h-64 md:h-[420px] object-cover"
@@ -68,6 +68,7 @@ export default function TestimoniesSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+      ;
     </div>
   );
 }
