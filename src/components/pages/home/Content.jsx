@@ -5,7 +5,7 @@ export default function Content() {
     <div className="grid grid-cols-1 grid-rows-4 h-[46rem] xl:grid-cols-2 xl:grid-rows-2 relative -z-20">
       <div className="bg-blue row-span-2 order-4 xl:order-none relative xl:bloc">
         <img
-          src="src/assets/images/Lucette 2.png"
+          src="../../../../public/images/Lucette 2.png"
           alt="lucette"
           className="absolute origin-bottom bottom-0 left-0 xl:left-24 scale-0 xl:scale-75"
         />

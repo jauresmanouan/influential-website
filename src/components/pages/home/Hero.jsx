@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="flex flex-col justify-center items-center md:items-start p-4 md:pl-10 xl:pl-40">
         <h1 className="text-center md:text-start font-montserrat font-extrabold text-3xl sm:text-6xl lg:text-7xl mb-6 max-md:mt-8 md:z-10 md:w-[70rem] leading-tight">
           Insp🔥rez la nation, <br />
-          construisez <br /> l'avenir✨
+          construisez <br /> l'avenir ✨
         </h1>
         <h2 className="text-center md:text-start font-inter font-medium text-blue text-sm sm:text-lg lg:text-xl mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
