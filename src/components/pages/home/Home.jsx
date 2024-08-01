@@ -13,8 +13,8 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const valueContext = {
-    isOpen: isOpen,
-    setIsOpen: setIsOpen,
+    isOpen,
+    setIsOpen,
   };
 
   return (
