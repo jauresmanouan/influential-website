@@ -1,19 +1,17 @@
 import Button from "../../reusable-ui/Button";
-import { HiFire } from "react-icons/hi2";
 
 export default function Hero() {
   return (
     <div className="flex flex-col justify-center items-center md:grid md:grid-cols-2 md:pt-20 overflow-x-clip">
-      {/* <img
-        src="https://i.pinimg.com/564x/cb/4b/ac/cb4bacdfe4334b112753180a5a7bd0be.jpg"
-        alt="logo"
-        className="w-full scale-150 mt-14 md:order-2 md:z-0"
-      /> */}
-      <HiFire className="text-orange-500 md:scale-150 w-full h-full mt-14 md:order-2 md:z-0" />
+      <img
+        src="public/images/feu 3.svg"
+        alt="feu"
+        className="scale-150 md:scale-[2] relative left-10 -z-10 md:order-2"
+      />
       <div className="flex flex-col justify-center items-center md:items-start p-4 md:pl-10 xl:pl-40">
-        <h1 className="text-center md:text-start font-montserrat font-extrabold text-5xl sm:text-6xl lg:text-8xl mb-6 md:z-10">
+        <h1 className="text-center md:text-start font-montserrat font-extrabold text-3xl sm:text-6xl lg:text-7xl mb-6 max-md:mt-8 md:z-10 md:w-[70rem] leading-tight">
           Insp🔥rez la nation, <br />
-          construisez l'avenir✨
+          construisez <br /> l'avenir ✨
         </h1>
         <h2 className="text-center md:text-start font-inter font-medium text-blue text-sm sm:text-lg lg:text-xl mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

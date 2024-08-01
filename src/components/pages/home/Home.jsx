@@ -1,30 +1,34 @@
 import { useState } from "react";
 import { Context } from "../../../context/Context";
-import NavBar from "./navbar/NavBar";
 import Hero from "./Hero";
 import Content from "./Content";
-import News from "./News";
 import Testimonies from "./testimonies/Testimonies";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
+import Navbar from "./navbar/Navbar";
+import Cards from "./News/Cards";
+import { news } from "./News/newdata";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const valueContext = {
-    isOpen: isOpen,
-    setIsOpen: setIsOpen,
+    isOpen,
+    setIsOpen,
   };
 
   return (
     <Context.Provider value={valueContext}>
-      <NavBar />
+      <Navbar />
       <Hero />
-      <Content/> 
-      <News/>
-      <Testimonies/>
-      <CallToAction/>
-      <Footer/>
+      <Content />
+      <Cards array={news} title={"News 🗞️"} />
+      <Testimonies />
+      <CallToAction
+        text={"Laissez vous tenter par l’aventure 🚀"}
+        button={true}
+      />
+      <Footer />
     </Context.Provider>
   );
 }

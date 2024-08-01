@@ -1,7 +1,7 @@
 export const testimonies = [
   {
     id: 1,
-    image: "src/assets/images/Good.jpeg",
+    image: "../../../../../public/images/Good.jpeg",
     title: "Good Life",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -10,7 +10,7 @@ export const testimonies = [
   },
   {
     id: 2,
-    image: "src/assets/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
+    image: "../../../../../public/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
     title: "Good Vibes",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -19,7 +19,7 @@ export const testimonies = [
   },
   {
     id: 3,
-    image: "src/assets/images/Premium Soft Lined Turban in Dove.jpeg",
+    image: "../../../../../public/images/Premium Soft Lined Turban in Dove.jpeg",
     title: "Beautiful",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -28,7 +28,7 @@ export const testimonies = [
   },
   {
     id: 4,
-    image: "src/assets/images/Wake-up Pray and Hustle.jpeg",
+    image: "../../../../../public/images/Wake-up Pray and Hustle.jpeg",
     title: "Pray and Hustle",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -38,7 +38,7 @@ export const testimonies = [
   {
     id: 5,
     image:
-      "src/assets/images/The thing I like about this image is that only one….jpeg",
+      "../../../../../public/images/The thing I like about this image is that only one….jpeg",
     title: "Focus",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
