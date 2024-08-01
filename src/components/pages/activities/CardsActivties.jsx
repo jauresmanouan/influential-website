@@ -1,4 +1,4 @@
-import Cards from "../home/News/Cards";
+import Cards from "../../reusable-ui/Cards";
 import { activities } from "./activities";
 
 export default function CardsActivties() {

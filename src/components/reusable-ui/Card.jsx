@@ -1,11 +1,6 @@
-export default function Card({
-  image,
-  title,
-  date,
-  description,
-}) {
+export default function Card({ image, title, date, description }) {
   return (
-    <div className="card card-normal max-w-80 rounded-none bg-base-100 shadow-xl font-inter">
+    <div className="max-w-80 rounded-none shadow-xl font-inter hover:bg-black">
       <figure>
         <img src={image} alt={title} />
       </figure>
