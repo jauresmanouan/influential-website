@@ -5,7 +5,7 @@ import Content from "./Content";
 import Testimonies from "./testimonies/Testimonies";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
-import NavBar from "./navbar/NavBar";
+import Navbar from "./navbar/Navbar";
 import Cards from "./News/Cards";
 import { news } from "./News/newdata";
 
@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <Context.Provider value={valueContext}>
-      <NavBar />
+      <Navbar />
       <Hero />
       <Content />
       <Cards array={news} title={"News 🗞️"} />
