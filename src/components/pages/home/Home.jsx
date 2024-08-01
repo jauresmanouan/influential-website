@@ -6,8 +6,8 @@ import Testimonies from "./testimonies/Testimonies";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
 import NavBar from "./navbar/NavBar";
-import CardList from "./News/CardList";
-import { News } from "./News/News";
+import Cards from "./News/Cards";
+import { news } from "./News/newdata";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Content />
-      <CardList array={News} title={"News 🗞️"} />
+      <Cards array={news} title={"News 🗞️"} />
       <Testimonies />
       <CallToAction
         text={"Laissez vous tenter par l’aventure 🚀"}
