@@ -8,13 +8,14 @@ export default function Cards({ array, title }) {
           {title}
         </h1>
         <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-10">
-          {array.map(({ id, image, title, date, description }) => (
+          {array.map(({ id, image, title, date, description, link }) => (
             <Card
               key={id}
               image={image}
               title={title}
               date={date}
               description={description}
+              link={link}
             />
           ))}
         </div>
