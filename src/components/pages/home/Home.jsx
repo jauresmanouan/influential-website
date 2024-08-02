@@ -5,9 +5,9 @@ import Content from "./Content";
 import Testimonies from "./testimonies/Testimonies";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
-import Navbar from "./navbar/Navbar";
-import Cards from "./News/Cards";
+import Cards from "../../reusable-ui/Cards";
 import { news } from "./News/newdata";
+import Navbar from "./navbar/Navbar";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
