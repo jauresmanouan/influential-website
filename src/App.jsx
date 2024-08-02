@@ -24,7 +24,7 @@ function App() {
       <Route path="/baume-de-gratitude" element={<Baume />} />
       <Route path="/croissons-en-vertus" element={<Vertus />} />
       <Route path="/sharing-experience" element={<Sharing />} />
-      <Route path="/free-virtual-tal" element={<Talk />} />
+      <Route path="/free-virtual-talk" element={<Talk />} />
     </Routes>
   );
 }
