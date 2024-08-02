@@ -13,7 +13,7 @@ export default function Card({ image, title, date, description, link }) {
       onClick={handleClick}
     >
       <figure>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} className="w-80 h-56 object-cover"/>
       </figure>
       <div className="card-body">
         <h3 className="flex justify-end">{date}</h3>

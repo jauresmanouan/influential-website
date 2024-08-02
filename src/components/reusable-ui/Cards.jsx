@@ -7,7 +7,7 @@ export default function Cards({ array, title }) {
         <h1 className="font-montserrat font-extrabold text-4xl sm:text-7xl">
           {title}
         </h1>
-        <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-10">
+        <div className="grid grid-cols-3 max-sm:grid-cols-1 max-xl:grid-cols-2 gap-10">
           {array.map(({ id, image, title, date, description, link }) => (
             <Card
               key={id}

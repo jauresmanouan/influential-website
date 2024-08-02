@@ -7,7 +7,7 @@ export default function Activity({ image, title }) {
         className="h-80 md:h-full w-80 md:w-96 md:order-2 object-cover rounded-3xl md:rounded-[9rem] md:scale-90 max-md:mt-10"
       />
       <div className="w-80 md:w-[38rem]">
-        <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight">
+        <h1 className="font-montserrat font-extrabold text-2xl sm:text-5xl lg:text-7xl leading-tight">
           {title}
         </h1>
         <p className="font-inter font-semibold text-sm sm:text-base lg:text-lg leading-tight text-justify mt-5 md:mt-10 max-md:mb-10">
