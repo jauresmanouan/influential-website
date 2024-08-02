@@ -1,6 +1,7 @@
 import TestimoniesSlider from "./TestimoniesSlider";
 import ButtonPrevNext from "./ButtonPrevNext";
 
+//@TODO : Faire un défilement automatique
 export default function Testimonies() {
   return (
     <div className="h-[50rem] w-screen bg-blue flex flex-col justify-center content-start relative">
