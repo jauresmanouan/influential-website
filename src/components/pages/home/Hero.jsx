@@ -1,5 +1,6 @@
 import Button from "../../reusable-ui/Button";
 
+//@:TODO : Corriger la petite apostrophe dans l'imagede feu
 export default function Hero() {
   return (
     <div className="flex flex-col justify-center items-center md:grid md:grid-cols-2 md:pt-20 overflow-x-clip">
