@@ -35,5 +35,9 @@ export const gallery = [
     id: 9,
     link: "public/images/galeries/RZR_0172.jpg",
   },    
+  {
+    id: 10,
+    link: "public/images/galeries/RZR_0158.jpg",
+  },    
 
 ];
