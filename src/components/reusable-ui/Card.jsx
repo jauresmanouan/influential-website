@@ -15,7 +15,7 @@ export default function Card({ image, title, date, description, link }) {
       <figure>
         <img src={image} alt={title} className="w-80 h-56 object-cover"/>
       </figure>
-      <div className="card-body">
+      <div className="card-body bg-white">
         <h3 className="flex justify-end">{date}</h3>
         <h2 className="card-title font-semibold">{title}</h2>
         <p className="font-normal">{description}</p>

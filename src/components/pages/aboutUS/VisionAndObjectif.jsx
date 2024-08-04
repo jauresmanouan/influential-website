@@ -2,8 +2,8 @@ import React from "react";
 
 export default function VisionAndObjectif() {
   return (
-    <div className="text-center">
-      <h1 className="font-montserrat font-extrabold text-3xl ml-40 mb-10 sm:text-5xl lg:text-7xl leading-tight">
+    <div className="h-full ml-40 mr-40 mt-20 mb-20">
+      <h1 className="font-montserrat font-extrabold text-3xl mb-10 sm:text-5xl lg:text-7xl leading-tight">
         Vision & <span className="text-fushia">Objectif</span> 🏹
       </h1>
       <div className="h-full grid grid-cols-2 grid-rows-2">

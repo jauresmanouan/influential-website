@@ -14,7 +14,13 @@ export default function AboutUs() {
       <WhoWeAre />
       <VisionAndObjectif />
       <WhatWeDid />
-      <Cards array={team} title={"Notre équipe 💪🏾"} />
+      <div className="bg-turquoise">
+        <Cards
+          array={team}
+          title={"Notre équipe 💪🏾"}
+          className={"h-full ml-20 mr-20"}
+        />
+      </div>
       <CallToAction text={"Faire partie de l’équipe"} button={true} />
       <Footer />
     </div>

@@ -5,11 +5,11 @@ import { data } from "./data";
 
 export default function WhatWeDid() {
   return (
-    <section className="flex justify-center items-center flex-col p-20">
-      <h1 className="font-montserrat font-extrabold text-3xl ml-40 sm:text-5xl lg:text-7xl leading-tight">
+    <section className="h-full ml-40 mr-40 mt-20 mb-20">
+      <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight mb-10">
         Nos réalisations 🥳
       </h1>
-      <div className="flex space-x-14 m-20 ">
+      <div className="flex space-x-14">
         {data.map(({ id, title, data }) => (
           <Stat key={id} title={title} data={data} />
         ))}

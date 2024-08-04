@@ -22,7 +22,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Content />
-      <Cards array={news} title={"News 🗞️"} />
+      <Cards
+        array={news}
+        title={"News 🗞️"}
+        className={"flex justify-center items-center"}
+      />
       <Testimonies />
       <CallToAction
         text={"Laissez vous tenter par l’aventure 🚀"}
