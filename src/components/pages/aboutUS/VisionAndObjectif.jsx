@@ -6,8 +6,8 @@ export default function VisionAndObjectif() {
       <h1 className="font-montserrat font-extrabold text-3xl ml-40 mb-10 sm:text-5xl lg:text-7xl leading-tight">
         Vision & <span className="text-fushia">Objectif</span> 🏹
       </h1>
-      <div className="h-full grid grid-cols-2 grid-rows-2 pl-40 pr-40">
-        <img src="public/images/photos/brenda-miriam.jpg" alt="" className="" />
+      <div className="h-full grid grid-cols-2 grid-rows-2">
+        <img src="public/images/photos/brenda-miriam.jpg" alt="brenda" />
         <div className="bg-blue">
           <h1 className="font-inter font-extrabold text-3xl text-justify leading-normal mt-10 ml-16 mb-5">
             Notre vision
@@ -35,7 +35,7 @@ export default function VisionAndObjectif() {
             neque,
           </p>
         </div>
-        <img src="public/images/photos/lucette-micro.jpg" alt="" />
+        <img src="public/images/photos/lucette-micro.jpg" alt="lucette" />
       </div>
     </div>
   );
