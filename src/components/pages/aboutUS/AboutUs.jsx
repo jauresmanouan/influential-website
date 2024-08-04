@@ -10,15 +10,15 @@ import WhatWeDid from "./WhatWeDid.jsx";
 export default function AboutUs() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <WhoWeAre />
       <VisionAndObjectif />
-      <WhatWeDid />
-      <div className="bg-turquoise">
+      <WhatWeDid /> */}
+      <div className="bg-turquoise overflow-hidden flex flex-col justify-center items-center">
         <Cards
           array={team}
           title={"Notre équipe 💪🏾"}
-          className={"h-full ml-20 mr-20"}
+          className={"md:ml-20 md:mr-20 mb-10"}
         />
       </div>
       <CallToAction text={"Faire partie de l’équipe"} button={true} />
