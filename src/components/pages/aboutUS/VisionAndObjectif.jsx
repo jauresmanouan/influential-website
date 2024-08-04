@@ -10,7 +10,7 @@ export default function VisionAndObjectif() {
         <img
           src="public/images/photos/brenda-miriam.jpg"
           alt="brenda"
-          className="w-full object-cover"
+          className="w-full h-full object-cover"
         />
         <div className="bg-blue p-4 md:p-8">
           <h1 className="font-inter font-extrabold text-2xl sm:text-3xl text-justify leading-normal mb-5">
@@ -41,7 +41,7 @@ export default function VisionAndObjectif() {
         <img
           src="public/images/photos/lucette-micro.jpg"
           alt="lucette"
-          className="w-full object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
     </div>
