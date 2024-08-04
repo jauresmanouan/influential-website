@@ -2,40 +2,47 @@ import React from "react";
 
 export default function VisionAndObjectif() {
   return (
-    <div className="h-full ml-40 mr-40 mt-20 mb-20">
+    <div className="h-full mx-4 sm:mx-10 md:mx-20 lg:mx-40 my-20">
       <h1 className="font-montserrat font-extrabold text-3xl mb-10 sm:text-5xl lg:text-7xl leading-tight">
         Vision & <span className="text-fushia">Objectif</span> 🏹
       </h1>
-      <div className="h-full grid grid-cols-2 grid-rows-2">
-        <img src="public/images/photos/brenda-miriam.jpg" alt="brenda" />
-        <div className="bg-blue">
-          <h1 className="font-inter font-extrabold text-3xl text-justify leading-normal mt-10 ml-16 mb-5">
+      <div className="h-full grid grid-cols-1 md:grid-cols-2">
+        <img
+          src="public/images/photos/brenda-miriam.jpg"
+          alt="brenda"
+          className="w-full object-cover"
+        />
+        <div className="bg-blue p-4 md:p-8">
+          <h1 className="font-inter font-extrabold text-2xl sm:text-3xl text-justify leading-normal mb-5">
             Notre vision
           </h1>
-          <p className="font-inter font-semibold text-base text-justify leading-normal ml-16 mr-16">
+          <p className="font-inter font-semibold text-base sm:text-lg text-justify leading-normal">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            pariatur odit sapiente cumque, neque, laudantium architecto <br />
+            pariatur odit sapiente cumque, neque, laudantium architecto
             repellendus aliquid voluptate minus laborum, dolore quas iure. Unde
             accusamus est rerum blanditiis esse. Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Numquam pariatur odit sapiente cumque,
             neque,
           </p>
         </div>
-        <div className="bg-turquoise">
-          <h1 className="font-inter font-extrabold text-3xl text-justify leading-normal mt-10 ml-16 mb-5">
+        <div className="bg-turquoise p-4 md:p-8">
+          <h1 className="font-inter font-extrabold text-2xl sm:text-3xl text-justify leading-normal mb-5">
             Notre Objectif
           </h1>
-          <p className="font-inter font-semibold text-base text-justify leading-normal ml-16 mr-16">
+          <p className="font-inter font-semibold text-base sm:text-lg text-justify leading-normal">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            pariatur odit sapiente cumque, neque, laudantium architecto <br />
-            <br />
+            pariatur odit sapiente cumque, neque, laudantium architecto
             repellendus aliquid voluptate minus laborum, dolore quas iure. Unde
             accusamus est rerum blanditiis esse. Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Numquam pariatur odit sapiente cumque,
             neque,
           </p>
         </div>
-        <img src="public/images/photos/lucette-micro.jpg" alt="lucette" />
+        <img
+          src="public/images/photos/lucette-micro.jpg"
+          alt="lucette"
+          className="w-full object-cover"
+        />
       </div>
     </div>
   );
