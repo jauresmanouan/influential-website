@@ -10,10 +10,10 @@ import WhatWeDid from "./WhatWeDid.jsx";
 export default function AboutUs() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <WhoWeAre />
       <VisionAndObjectif />
-      <WhatWeDid /> */}
+      <WhatWeDid />
       <div className="bg-turquoise overflow-hidden flex flex-col justify-center items-center">
         <Cards
           array={team}
