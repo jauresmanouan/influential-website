@@ -1,7 +1,7 @@
 import React from "react";
-import Caroussel from "./Caroussel";
+import Gallery from "./Gallery.jsx";
 import Stat from "./Stat";
-import { stat } from "./stat";
+import { data } from "./data";
 
 export default function WhatWeDid() {
   return (
@@ -10,11 +10,11 @@ export default function WhatWeDid() {
         Nos réalisations 🥳
       </h1>
       <div className="flex space-x-14 m-20 ">
-          {stat.map(({ title, data }) => (
-            <Stat title={title} data={data} />
-          ))}
+        {data.map(({ id, title, data }) => (
+          <Stat key={id} title={title} data={data} />
+        ))}
       </div>
-      <Caroussel />
+      <Gallery />
     </section>
   );
 }
