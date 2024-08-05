@@ -2,7 +2,7 @@ import React from "react";
 
 export default function VisionAndObjectif() {
   return (
-    <div className="h-full mx-4 sm:mx-10 md:mx-20 lg:mx-40 my-20">
+    <div className="h-full mx-4 sm:mx-10 md:mx-20 lg:mx-40">
       <h1 className="font-montserrat font-extrabold text-3xl mb-10 sm:text-5xl lg:text-7xl leading-tight">
         Vision & <span className="text-fushia">Objectif</span> 🏹
       </h1>

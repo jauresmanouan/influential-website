@@ -7,7 +7,7 @@ export default function Caroussel() {
       <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight mb-10">
         Notre galerie d'images 🥰
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3  gap-4">
         {gallery.map(({ id, link }) => (
           <div key={id}>
             <img
