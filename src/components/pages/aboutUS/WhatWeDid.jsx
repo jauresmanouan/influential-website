@@ -7,7 +7,7 @@ export default function WhatWeDid() {
   return (
     <section>
       <div className="h-full mx-4 sm:mx-10 md:mx-20 lg:mx-40 my-20">
-        <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight mb-10">
+        <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight md:mb-10">
           Nos réalisations 🥳
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3">
