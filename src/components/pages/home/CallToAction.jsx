@@ -16,7 +16,7 @@ export default function CallToAction({ text, icon, button }) {
           text={"En savoir plus"}
           colorButton={"bg-blue"}
           colorText={"text-white"}
-          arrow={true}
+          arrow={false}
           className={"border-none bg-blue hover:bg-turquoise"}
         />
       )}
