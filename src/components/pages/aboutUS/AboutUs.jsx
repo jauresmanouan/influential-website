@@ -17,7 +17,8 @@ export default function AboutUs() {
       <div className="bg-turquoise overflow-hidden flex flex-col justify-center items-center">
         <Cards
           array={team}
-          title={"Notre équipe 💪🏾"}
+          title={"Notre équipe"}
+          team={true}
           className={"md:ml-20 md:mr-20 mb-10"}
         />
       </div>

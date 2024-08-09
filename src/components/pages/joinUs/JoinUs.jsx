@@ -8,7 +8,7 @@ export default function JoinUs() {
     <div>
       <Navbar />
       <Form />
-      <CallToAction text={"Laissez vous tenter par l’aventure 🚀"} />
+      <CallToAction text={"Laissez vous tenter par l’aventure"} />
       <Footer />
     </div>
   );

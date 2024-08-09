@@ -5,7 +5,12 @@ export default function Caroussel() {
   return (
     <div className="h-full mt-20 mx-4 sm:mx-10 md:mx-20 lg:mx-40">
       <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight mb-10">
-        Notre galerie d'images 🥰
+        Notre galerie d'images
+        <img
+          src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smirking%20Face.webp"
+          alt="Smirking Face"
+          className="h-10 lg:h-20 w-10 lg:w-20 align-bottom inline"
+        />
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3  gap-4">
         {gallery.map(({ id, link }) => (

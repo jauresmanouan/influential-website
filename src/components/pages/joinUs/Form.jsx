@@ -14,7 +14,12 @@ export default function Form() {
       </div>
       <div className="flex flex-col max-lg:justify-center max-lg:items-center p-4 sm:p-10">
         <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl md:text-4xl xl:text-6xl leading-tight mb-10">
-          Rejoignez-nous 😊
+          Rejoignez-nous 
+          <img
+            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp"
+            alt="Smiling Face With Sunglasses"
+            className="h-10 lg:h-16 w-10 lg:w-16 align-bottom inline"
+          />
         </h1>
         <form className="w-full max-w-lg space-y-5">
           {infoForm.map(({ id, type, placeholder }) => (

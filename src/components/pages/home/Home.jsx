@@ -24,12 +24,14 @@ export default function Home() {
       <Content />
       <Cards
         array={news}
-        title={"News 🗞️"}
+        title={"News"}
+        tv={true}
         className={"flex justify-center items-center"}
       />
       <Testimonies />
       <CallToAction
-        text={"Laissez vous tenter par l’aventure 🚀"}
+        text={"Laissez vous tenter par l’aventure"}
+        icon={true}
         button={true}
       />
       <Footer />
