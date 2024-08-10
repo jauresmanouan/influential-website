@@ -6,7 +6,7 @@ export default function Button({
   colorText,
   iconStyle,
   arrow = true,
-  className,
+  className = "",
 }) {
   return (
     <div
