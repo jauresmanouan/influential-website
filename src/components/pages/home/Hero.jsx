@@ -29,6 +29,7 @@ export default function Hero() {
           text={"En savoir plus"}
           colorText={"text-white"}
           arrow={false}
+          className={"hover:scale-110 hover:bg-fushia"}
         />
       </div>
     </div>

@@ -23,7 +23,7 @@ export default function Menu() {
           colorText={"text-fushia"}
           iconStyle={"text-fushia lg:w-5 h-5"}
           arrow={true}
-          className={"hover:border-2 hover:border-turquoise hover:bg-white"}
+          className={"hover:scale-110 hover:bg-white"}
         />
       </LinkTo>
     </div>

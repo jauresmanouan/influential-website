@@ -14,7 +14,7 @@ export default function Form() {
       </div>
       <div className="flex flex-col max-lg:justify-center max-lg:items-center p-4 sm:p-10">
         <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl md:text-4xl xl:text-6xl leading-tight mb-10">
-          Rejoignez-nous 
+          Rejoignez-nous
           <img
             src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp"
             alt="Smiling Face With Sunglasses"
@@ -54,7 +54,7 @@ export default function Form() {
             <Button
               text={"Transmettre"}
               className={
-                "text-white bg-fushia gap-1 w-40 h-10 lg:w-full btn font-inter font-semibold text-sm lg:text-lg flex justify-start items-e lg:h-14"
+                "text-white bg-fushia gap-1 w-40 h-10 lg:w-full btn font-inter font-semibold text-sm lg:text-lg flex justify-start items-e lg:h-14 hover:scale-110 hover:bg-fushia"
               }
             />
           </div>

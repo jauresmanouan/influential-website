@@ -17,7 +17,7 @@ export default function CallToAction({ text, icon, button }) {
           colorButton={"bg-blue"}
           colorText={"text-white"}
           arrow={false}
-          className={"border-none bg-blue hover:bg-turquoise"}
+          className={"border-none bg-blue hover:bg-turquoise hover:scale-110"}
         />
       )}
     </div>

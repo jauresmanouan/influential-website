@@ -26,7 +26,7 @@ export default function Footer() {
           placeholder="Entrez votre email"
           className="bg-slate-100 rounded-full w-full sm:w-80 h-12 sm:h-16 font-inter font-normal px-4 sm:px-8 outline-2 outline-blue"
         />
-        <button className="btn bg-blue hover:bg-fushia rounded-full w-full sm:w-36 h-12 sm:h-16 text-white font-inter font-semibold">
+        <button className="btn bg-blue hover:bg-fushia rounded-full w-full sm:w-36 h-12 sm:h-16 text-white font-inter font-semibold hover:scale-110">
           Souscrire
         </button>
       </form>
