@@ -1,14 +1,14 @@
-import { easeInOut, motion } from "framer-motion";
+import { easeIn, easeInOut, motion } from "framer-motion";
 
 export default function Activity({ image, title }) {
-
+  const transition = { duration: 1, ease: [0.34, 1.56, 0.64, 1] };
 
   return (
     <div className="h-full md:h-[63rem] flex flex-col md:flex-row gap-5 max-md:gap-10 justify-center items-center max-lg:pl-3">
       <motion.img
-        initial={{ x: 0, width: "20rem", height: "14rem" }}
-        animate={{ x: 0, width: "24rem", height: "90%" }}
-        transition={{ duration: 0.8, ease: [0.34, 1.56, 0.64, 1] }}
+        initial={{ width: "20rem", height: "14rem" }}
+        animate={{ width: "24rem", height: "90%" }}
+        transition={{ ...transition }}
         src={image}
         alt={title}
         className="h-80 md:h-full w-80 md:w-96 md:order-2 object-cover rounded-3xl md:rounded-[9rem] max-md:mt-10"
@@ -17,7 +17,7 @@ export default function Activity({ image, title }) {
         <motion.h1
           initial={{ x: 150, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 1, ease: [0.34, 1.56, 0.64, 1] }}
+          transition={{ delay: 0.2, ...transition }}
           className="font-montserrat font-extrabold text-2xl sm:text-5xl lg:text-7xl leading-tight"
         >
           {title}
@@ -25,7 +25,7 @@ export default function Activity({ image, title }) {
         <motion.p
           initial={{ x: 150, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 1.5, ease: [0.34, 1.56, 0.64, 1] }}
+          transition={{ delay: 0.3, ...transition }}
           className="font-inter font-semibold text-sm sm:text-base lg:text-lg leading-tight text-justify mt-5 md:mt-10 max-md:mb-10"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo
