@@ -5,7 +5,7 @@ import Activity from "./Activity";
 
 export default function Aligne() {
   return (
-    <div>
+    <>
       <Navbar />
       <Activity
         image={"public/images/activities/Aligne.png"}
@@ -13,6 +13,6 @@ export default function Aligne() {
       />
       <CallToAction text={"Restez informés de nos activités"} button={false} />
       <Footer />
-    </div>
+    </>
   );
 }
