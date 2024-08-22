@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+//@TODO : Ajouter un verificateur d'email
+//@TODO : Ajouter un reCAPTCHA
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -29,8 +31,12 @@ export default function Newsletter() {
           "Erreur lors de l'ajout de votre email, merci de réessayer 😥"
         );
       }
+
+      setTimeout(() => {
+        setMessage("");
+      }, 3000);
     } catch (error) {
-      setMessage("Une erreur est survenue. Merci de réessayer");
+      setMessage("Erreur du serveur, Merci de réessayer");
     }
   };
 
@@ -55,7 +61,7 @@ export default function Newsletter() {
         </button>
       </form>
       <p
-        className={`pt-5 text-lg font-inter font-bold ${
+        className={`pt-5 text-lg font-montserrat font-bold ${
           message.includes("Erreur") ? "text-red-500" : "text-green-500"
         }`}
       >
