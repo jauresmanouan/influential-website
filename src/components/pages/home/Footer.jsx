@@ -1,33 +1,7 @@
-import { FaFacebookF, FaLinkedinIn, FaTiktok, FaYoutube } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { socialMediaIcons } from "./sociaMediaIcons";
-import { useState } from "react";
+import Newsletter from "./footer/Newsletter";
+import SocialMedia from "./footer/SocialMedia";
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-
-    const apiToken = import.meta.env.VITE_API_TOKEN;
-    const response = await fetch(
-      "https://connect.mailerlite.com/api/subscribers",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-          Authorization: `Bearer ${apiToken}`,
-        },
-        body: JSON.stringify({ email: email }),
-      }
-    ).then(setEmail(""));
-  };
-
-  const handleChange = (event) => {
-    setEmail(event.target.value);
-  };
-
   return (
     <div className="min-h-screen bg-white flex flex-col space-y-4 justify-center items-center text-center p-4">
       <h1 className="px-4 sm:px-10 md:px-20 lg:px-40 font-montserrat text-black font-extrabold text-2xl sm:text-3xl md:text-4xl leading-tight">
@@ -42,40 +16,8 @@ export default function Footer() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus amet{" "}
         <br className="hidden sm:inline" /> dui quam vitae quis leo.
       </p>
-
-      <form
-        onSubmit={handleSubmit}
-        className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center items-center pt-8 w-full px-4"
-      >
-        <input
-          type="email"
-          placeholder="Entrez votre email"
-          value={email}
-          onChange={handleChange}
-          className="bg-slate-100 rounded-full w-full sm:w-80 h-12 sm:h-16 font-inter font-normal px-4 sm:px-8 outline-2 outline-blue"
-        />
-        <button className="btn bg-blue hover:bg-fushia rounded-full w-full sm:w-36 h-12 sm:h-16 text-white font-inter font-semibold hover:scale-110">
-          Souscrire
-        </button>
-      </form>
-
-      <div className="flex space-x-3 pb-20 pt-10">
-        <button className="btn btn-sm text-blue">
-          <FaFacebookF className="text-base" />
-        </button>
-        <button className="btn btn-sm  text-blue">
-          <AiFillInstagram className="text-base" />
-        </button>
-        <button className="btn btn-sm text-blue ">
-          <FaLinkedinIn className="text-base" />
-        </button>
-        <button className="btn btn-sm text-blue">
-          <FaTiktok className="text-base" />
-        </button>
-        <button className="btn btn-sm text-blue ">
-          <FaYoutube className="text-base" />
-        </button>
-      </div>
+      <Newsletter />
+      <SocialMedia />
       <hr className="border-1 border-blue w-3/4 pt-2" />
       <p className="text-blue font-inter font-normal text-sm sm:text-base md:text-lg">
         Copyright © 2024 Développé avec le{" "}
