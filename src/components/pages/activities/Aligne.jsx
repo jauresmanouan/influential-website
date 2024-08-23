@@ -10,6 +10,7 @@ export default function Aligne() {
       <Activity
         image={"public/images/activities/Aligne.png"}
         title={"Aligné(e) 🤸🏽"}
+        hash="LEC7m4bc3?M{JFaKoJWAcskCvfkC"
       />
       <CallToAction text={"Restez informés de nos activités"} button={false} />
       <Footer />

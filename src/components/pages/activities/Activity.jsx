@@ -1,18 +1,24 @@
-import { easeIn, easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import BlurredImage from "../../reusable-ui/BlurredImage";
 
-export default function Activity({ image, title }) {
+export default function Activity({ image, title, hash }) {
   const transition = { duration: 1, ease: [0.34, 1.56, 0.64, 1] };
 
   return (
     <div className="h-full md:h-[63rem] flex flex-col md:flex-row gap-5 max-md:gap-10 justify-center items-center max-lg:pl-3">
-      <motion.img
+      <motion.div
         initial={{ width: "20rem", height: "14rem" }}
         animate={{ width: "24rem", height: "90%" }}
         transition={{ ...transition }}
-        src={image}
-        alt={title}
-        className="h-80 md:h-full w-80 md:w-96 md:order-2 object-cover rounded-3xl md:rounded-[9rem] max-md:mt-10"
-      />
+        className="md:order-2 flex justify-center items-center"
+      >
+        <BlurredImage
+          src={image}
+          alt={title}
+          hash={hash}
+          className="h-80 md:h-full w-80 md:w-96 object-cover rounded-3xl md:rounded-[9rem] max-md:mt-10"
+        />
+      </motion.div>
       <div className="w-80 md:w-[38rem]">
         <motion.h1
           initial={{ x: 150, opacity: 0 }}

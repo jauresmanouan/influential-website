@@ -5,14 +5,15 @@ import Activity from "./Activity";
 
 export default function Baume() {
   return (
-    <div>
+    <>
       <Navbar />
       <Activity
-        image={"public/images/activities/Vertus.png"}
-        title={"Croissons en Vertus 🍀"}
+        image="public/images/activities/Vertus.png"
+        title="Croissons en Vertus 🍀"
+        hash="LRD,viR3GKyF02WBt7WZ?aWYVWem"
       />
       <CallToAction text={"Restez informés de nos activités"} button={false} />
       <Footer />
-    </div>
+    </>
   );
 }
