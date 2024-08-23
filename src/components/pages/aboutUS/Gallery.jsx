@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { gallery } from "./gallery";
+import { BlurhashCanvas } from "react-blurhash";
+import BlurredImage from "../../reusable-ui/BlurredImage";
 
 export default function Caroussel() {
-
-  const handleZoom = ()=> {
-    
-  }
   return (
     <div className="h-full mt-20 mx-4 sm:mx-10 md:mx-20 lg:mx-40">
       <h1 className="font-montserrat font-extrabold text-3xl sm:text-5xl lg:text-7xl leading-tight mb-10">
@@ -17,11 +15,12 @@ export default function Caroussel() {
         />
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-4">
-        {gallery.map(({ id, link }) => (
-          <div key={id} onClick={handleZoom}>
-            <img
-              src={link}
-              alt={`Image ${id}`}
+        {gallery.map(({ id, src, alt, hash }) => (
+          <div key={id}>
+            <BlurredImage
+              src={src}
+              hash={hash}
+              alt={alt}
               className="object-cover h-full w-full rounded-3xl hover:scale-105 transition-transform duration-300 cursor-pointer"
             />
           </div>

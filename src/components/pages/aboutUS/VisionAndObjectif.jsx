@@ -1,4 +1,5 @@
 import React from "react";
+import BlurredImage from "../../reusable-ui/BlurredImage";
 
 export default function VisionAndObjectif() {
   return (
@@ -12,9 +13,10 @@ export default function VisionAndObjectif() {
         />
       </h1>
       <div className="h-full grid grid-cols-1 md:grid-cols-2">
-        <img
+        <BlurredImage
           src="public/images/photos/brenda-miriam.jpg"
           alt="brenda"
+          hash="LNL3lj?w=^WA0KxVr=X8x_s8Iqj]"
           className="w-full h-full object-cover"
         />
         <div className="bg-blue p-4 md:p-8">
@@ -43,9 +45,10 @@ export default function VisionAndObjectif() {
             neque,
           </p>
         </div>
-        <img
+        <BlurredImage
           src="public/images/photos/lucette-micro.jpg"
-          alt="lucette"
+          hash="LlMQhkyX?bRP~WozxujFIVV@IUj["
+          alt="lucette-micro"
           className="w-full h-full object-cover"
         />
       </div>
