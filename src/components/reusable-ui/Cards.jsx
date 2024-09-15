@@ -22,7 +22,7 @@ export default function Cards({ array, title, tv, team, className }) {
           )}
         </h1>
         <div className="grid grid-cols-3 max-sm:grid-cols-1 max-xl:grid-cols-2 gap-10">
-          {array.map(({ id, image, title, date, description, link }) => (
+          {array.map(({ id, image, title, date, description, link, hash }) => (
             <Card
               key={id}
               image={image}
@@ -30,6 +30,7 @@ export default function Cards({ array, title, tv, team, className }) {
               date={date}
               description={description}
               link={link}
+              hash={hash}
             />
           ))}
         </div>

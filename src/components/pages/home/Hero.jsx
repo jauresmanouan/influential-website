@@ -24,9 +24,7 @@ export default function Hero() {
           rez <br /> la nation
         </h1>
         <h2 className="text-center md:text-start font-inter font-medium text-blue text-sm sm:text-lg lg:text-xl mb-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br />
-          Commodi minima dolores natus sequi voluptates cupiditate unde
+          En devenant un agent de changement dans notre communauté 
         </h2>
         <Button
           colorButton={"bg-fushia"}

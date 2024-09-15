@@ -15,13 +15,7 @@ export default function BlurredImage({ src, alt, hash, className }) {
   return (
     <>
       <div style={{ display: imageLoaded ? "none" : "inline" }}>
-        <BlurhashCanvas
-          hash={hash}
-          className={className}
-          punch={1}
-          resolutionX={32}
-          resolutionY={32}
-        />
+        <BlurhashCanvas hash={hash} className={className} />
       </div>
       <img
         src={src}

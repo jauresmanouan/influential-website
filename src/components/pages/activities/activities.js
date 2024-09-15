@@ -6,6 +6,7 @@ export const activities = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elidolor  sit nullam neques.",
     link: "/aligne",
+    hash: "LEC7m4bc3?M{JFaKoJWAcskCvfkC",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const activities = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elidolor  sit nullam neques.",
     link: "/baume-de-gratitude",
+    hash: "LEC7m4bc3?M{JFaKoJWAcskCvfkC",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const activities = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elidolor  sit nullam neques.",
     link: "/croissons-en-vertus",
+    hash: "LEC7m4bc3?M{JFaKoJWAcskCvfkC",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export const activities = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elidolor  sit nullam neques.",
     link: "/sharing-experience",
+    hash: "LEC7m4bc3?M{JFaKoJWAcskCvfkC",
   },
   {
     id: 5,
@@ -38,5 +42,6 @@ export const activities = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elidolor  sit nullam neques.",
     link: "/free-virtual-talk",
+    hash: "LEC7m4bc3?M{JFaKoJWAcskCvfkC",
   },
 ];

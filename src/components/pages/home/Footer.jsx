@@ -12,9 +12,9 @@ export default function Footer() {
           className="h-8 lg:h-12 w-8 lg:w-12 inline-flex"
         />
       </h1>
-      <p className="text-blue text-sm sm:text-base md:text-lg lg:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus amet{" "}
-        <br className="hidden sm:inline" /> dui quam vitae quis leo.
+      <p className="text-blue font-inter font-semibold text-sm sm:text-base md:text-lg lg:text-xl">
+        Ne vous inquiétez pas nous ne serons pas intrusif 🙂‍↔️
+        <br className="hidden sm:inline" />
       </p>
       <Newsletter />
       <SocialMedia />

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
+import BlurredImage from "./BlurredImage";
 
-export default function Card({ image, title, date, description, link }) {
+export default function Card({ image, title, date, description, link, hash }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -13,7 +14,12 @@ export default function Card({ image, title, date, description, link }) {
       onClick={handleClick}
     >
       <figure>
-        <img src={image} alt={title} className="w-80 h-56 object-cover"/>
+        <BlurredImage
+          src={image}
+          alt={title}
+          hash={hash}
+          className="w-80 h-56 object-cover"
+        />
       </figure>
       <div className="card-body bg-white">
         <h3 className="flex justify-end">{date}</h3>

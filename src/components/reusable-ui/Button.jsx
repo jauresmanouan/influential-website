@@ -12,7 +12,9 @@ export default function Button({
     <div
       className={`${colorButton} ${className} btn font-inter font-semibold text-sm lg:text-lg flex justify-center items-center gap-1 w-40 h-10 lg:w-48 lg:h-14 rounded-full`}
     >
-      <button className={`${colorText}`}>{text}</button>
+      <button className={`${colorText}`}>
+        <a href="/nous-connaître">{text}</a>
+      </button>
       {arrow && <HiOutlineArrowRight className={iconStyle} />}
     </div>
   );

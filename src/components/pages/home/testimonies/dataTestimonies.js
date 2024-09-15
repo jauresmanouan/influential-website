@@ -4,22 +4,24 @@ export const testimonies = [
     image: "../../../../../public/images/Good.jpeg",
     title: "Good Life",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
-    author: "Basile Kouakou",
+      "J'ai cessé de me plaindre constamment dans mon quotidien, et je voulais vous en remercier. Cela a changé ma manière d'aborder et d'apprécier chaque situation à laquelle je suis confrontée.",
+    author: "Ange-Andréa KLA",
     function: "Economiste Statisticien",
   },
   {
     id: 2,
-    image: "../../../../../public/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
+    image:
+      "../../../../../public/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
     title: "Good Vibes",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
-    author: "Alexandre Koffi",
+      "Un des exercices, bien que difficile, m'a poussé à exprimer ma gratitude pour l'amour de mes proches, ce que je n'avais jamais osé faire. En le partageant avec mon groupe d'amis, j'étais surpris par la joie de ceux-ci eux. Je me sens vraiment libre maintenant, merci",
+    author: "Abdoulaye DIALLO",
     function: "Ingénieur Agroalimentaire",
   },
   {
     id: 3,
-    image: "../../../../../public/images/Premium Soft Lined Turban in Dove.jpeg",
+    image:
+      "../../../../../public/images/Premium Soft Lined Turban in Dove.jpeg",
     title: "Beautiful",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
