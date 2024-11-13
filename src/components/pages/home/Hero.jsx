@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col justify-center items-center md:grid md:grid-cols-2 md:pt-20 overflow-x-clip">
       <img
-        src="public/images/feu 4.svg"
+        src="/images/feu 4.svg"
         alt="feu"
         className="scale-150 md:scale-[1.9] relative top-14 md:top-32 md:right-36 -z-10 md:order-2"
       />

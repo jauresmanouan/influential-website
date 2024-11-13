@@ -1,7 +1,7 @@
 export const testimonies = [
   {
     id: 1,
-    image: "../../../../../public/images/Good.jpeg",
+    image: "/images/Good.jpeg",
     title: "Good Life",
     description:
       "J'ai cessé de me plaindre constamment dans mon quotidien, et je voulais vous en remercier. Cela a changé ma manière d'aborder et d'apprécier chaque situation à laquelle je suis confrontée.",
@@ -10,8 +10,7 @@ export const testimonies = [
   },
   {
     id: 2,
-    image:
-      "../../../../../public/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
+    image: "/images/9703b63f-1b3f-4fee-b31b-d116c1a94203.jpeg",
     title: "Good Vibes",
     description:
       "Un des exercices, bien que difficile, m'a poussé à exprimer ma gratitude pour l'amour de mes proches, ce que je n'avais jamais osé faire. En le partageant avec mon groupe d'amis, j'étais surpris par la joie de ceux-ci eux. Je me sens vraiment libre maintenant, merci",
@@ -20,8 +19,7 @@ export const testimonies = [
   },
   {
     id: 3,
-    image:
-      "../../../../../public/images/Premium Soft Lined Turban in Dove.jpeg",
+    image: "/images/Premium Soft Lined Turban in Dove.jpeg",
     title: "Beautiful",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -30,7 +28,7 @@ export const testimonies = [
   },
   {
     id: 4,
-    image: "../../../../../public/images/Wake-up Pray and Hustle.jpeg",
+    image: "/images/Wake-up Pray and Hustle.jpeg",
     title: "Pray and Hustle",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",
@@ -39,8 +37,7 @@ export const testimonies = [
   },
   {
     id: 5,
-    image:
-      "../../../../../public/images/The thing I like about this image is that only one….jpeg",
+    image: "/images/The thing I like about this image is that only one….jpeg",
     title: "Focus",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet ea laborum nostrum ab vitae, officiis labore cum voluptatem maxime dolorem ad libero, eius ipsa nemo temporibus explicabo deserunt modi?",

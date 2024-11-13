@@ -7,7 +7,7 @@ export default function Form() {
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:h-[58rem]">
       <div className="lg:block">
         <img
-          src="public/images/galeries/RZR_0055.jpg"
+          src="/images/galeries/RZR_0055.jpg"
           alt="Form Image"
           className="object-cover h-72 lg:h-[58rem] w-full"
         />

@@ -1,7 +1,7 @@
 export const news = [
   {
     id: 1,
-    image: "../../../../../public/images/Aletier IFL 240623 4.png",
+    image: "/images/Aletier IFL 240623 4.png",
     title: "FREE VIRTUAL TALK",
     date: "10-Jan-2023",
     description:
@@ -10,7 +10,7 @@ export const news = [
   },
   {
     id: 2,
-    image: "../../../../../public/images/Aletier IFL 240623 4.png",
+    image: "/images/Aletier IFL 240623 4.png",
     title: "MY GROWTH PATH",
     date: "10-Jan-2023",
     description:
@@ -19,7 +19,7 @@ export const news = [
   },
   {
     id: 3,
-    image: "../../../../../public/images/Aletier IFL 240623 4.png",
+    image: "/images/Aletier IFL 240623 4.png",
     title: "BAUME DE GRATITUDE",
     date: "10-Jan-2023",
     description:

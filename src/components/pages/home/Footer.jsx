@@ -13,7 +13,7 @@ export default function Footer() {
         />
       </h1>
       <p className="text-blue font-inter font-semibold text-sm sm:text-base md:text-lg lg:text-xl">
-        Ne vous inquiétez pas nous ne serons pas intrusif 🙂‍↔️
+        Ne vous inquiétez pas nous ne serons pas intrusif
         <br className="hidden sm:inline" />
       </p>
       <Newsletter />
@@ -26,7 +26,14 @@ export default function Footer() {
           alt="Red Heart"
           className="h-3 lg:h-5 w-3 lg:w-5 align-middle inline"
         />{" "}
-        par Jaurès MANOUAN
+        par{" "}
+        <a
+          href="https://www.linkedin.com/in/jauresmanouan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="underline">Jaurès MANOUAN</span>
+        </a>
       </p>
     </div>
   );

@@ -14,7 +14,7 @@ export default function VisionAndObjectif() {
       </h1>
       <div className="h-full grid grid-cols-1 md:grid-cols-2">
         <BlurredImage
-          src="public/images/photos/brenda-miriam.jpg"
+          src="/images/photos/brenda-miriam.jpg"
           alt="brenda"
           hash="LNL3lj?w=^WA0KxVr=X8x_s8Iqj]"
           className="w-full h-full object-cover"
@@ -46,7 +46,7 @@ export default function VisionAndObjectif() {
           </p>
         </div>
         <BlurredImage
-          src="public/images/photos/lucette-micro.jpg"
+          src="/images/photos/lucette-micro.jpg"
           hash="LlMQhkyX?bRP~WozxujFIVV@IUj["
           alt="lucette-micro"
           className="w-full h-full object-cover"
