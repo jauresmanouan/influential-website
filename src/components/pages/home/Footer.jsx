@@ -19,20 +19,22 @@ export default function Footer() {
       <Newsletter />
       <SocialMedia />
       <hr className="border-1 border-blue w-3/4 pt-2" />
-      <p className="text-blue font-inter font-normal text-sm sm:text-base md:text-lg">
+      <p className="text-blue font-inter font-normal text-xs sm:text-sm md:text-lg">
         Copyright © 2024 Développé avec le{" "}
         <img
           src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Red%20Heart.webp"
           alt="Red Heart"
-          className="h-3 lg:h-5 w-3 lg:w-5 align-middle inline"
+          className="h-4 lg:h-5 w-4 lg:w-5 align-middle inline"
         />{" "}
-        par{" "}
+        par <br />
         <a
           href="https://www.linkedin.com/in/jauresmanouan"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="underline">Jaurès MANOUAN</span>
+          <span className="text-xs font-semibold text-fushia">
+            Jaurès MANOUAN
+          </span>
         </a>
       </p>
     </div>

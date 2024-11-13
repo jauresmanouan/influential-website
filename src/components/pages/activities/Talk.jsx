@@ -9,7 +9,7 @@ export default function Baume() {
     <>
       <Navbar />
       <Activity
-        image="public/images/activities/Talk.png"
+        image="/images/activities/Talk.png"
         title="Free Virtual Talk 🎙️"
         hash="LNFYP,_3_Nt8xso}Rin$DiMxRij["
       />

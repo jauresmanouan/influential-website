@@ -8,7 +8,7 @@ export default function Baume() {
     <>
       <Navbar />
       <Activity
-        image="public/images/activities/Sharing.png"
+        image="/images/activities/Sharing.png"
         title="Sharing experience 🧩"
         hash="LHGZ:=s:029?qCJO9Xr^,{nmn3t7"
       />

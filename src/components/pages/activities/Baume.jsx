@@ -8,7 +8,7 @@ export default function Baume() {
     <>
       <Navbar />
       <Activity
-        image="public/images/activities/Baume.png"
+        image="/images/activities/Baume.png"
         title="Baume de gratitude 🙏🏾"
         hash="LC8O#WI;3?-TLMs:jFWBM{bH#lR*"
       />

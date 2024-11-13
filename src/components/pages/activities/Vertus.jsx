@@ -8,7 +8,7 @@ export default function Baume() {
     <>
       <Navbar />
       <Activity
-        image="public/images/activities/Vertus.png"
+        image="/images/activities/Vertus.png"
         title="Croissons en Vertus 🍀"
         hash="LRD,viR3GKyF02WBt7WZ?aWYVWem"
       />

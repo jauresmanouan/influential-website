@@ -8,7 +8,7 @@ export default function Aligne() {
     <>
       <Navbar />
       <Activity
-        image="public/images/activities/Aligne.png"
+        image="/images/activities/Aligne.png"
         title="Aligné(e) 🤸🏽"
         hash="LEC7m4bc3?M{JFaKoJWAcskCvfkC"
       />
